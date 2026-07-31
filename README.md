@@ -100,16 +100,16 @@ The parts of this project I would point at in a code review:
 
 ## Features
 
-| | Feature | What it does |
+| Feature | What it does |
 |---|---|
-**Accounts & sessions** | Registration with Django's password validators, JWT login, rotating refresh tokens with blacklisting, silent refresh on `401`, guarded routes on the client. |
-**Traveller profiles** | Save a traveller once — name, date of birth, gender, phone, nationality — and reuse them across bookings. Full create / list / edit / delete, scoped to the signed-in user. |
-**Document scanning** | Photograph the front (and optionally the back) of an ID or passport; the extracted fields land pre-filled in the traveller form for review. |
-**Flight search** | IATA autocomplete for airports, one-way and round-trip search, normalised offer cards with airline name, stops, times and price. |
-**Booking flow** | Confirm the live price of a chosen offer, attach saved travellers, create the order, and get the PNR plus an airline check-in link. |
-**My Bookings** | Every order saved to the account, with status, price, route and one-tap check-in. |
-**Hotel map** | Search a place, pan the map, and see accommodation from OpenStreetMap as markers — filtered and sorted by real distance from the map centre. |
-**Voya AI** | A travel assistant backed by four specialist agents (flights, hotels, itineraries, budget), conversation memory, live web grounding and source links. |
+| **Accounts & sessions** | Registration with Django's password validators, JWT login, rotating refresh tokens with blacklisting, silent refresh on `401`, guarded routes on the client. |
+| **Traveller profiles** | Save a traveller once — name, date of birth, gender, phone, nationality — and reuse them across bookings. Full create / list / edit / delete, scoped to the signed-in user. |
+| **Document scanning** | Photograph the front (and optionally the back) of an ID or passport; the extracted fields land pre-filled in the traveller form for review. |
+| **Flight search** | IATA autocomplete for airports, one-way and round-trip search, normalised offer cards with airline name, stops, times and price. |
+| **Booking flow** | Confirm the live price of a chosen offer, attach saved travellers, create the order, and get the PNR plus an airline check-in link. |
+| **My Bookings** | Every order saved to the account, with status, price, route and one-tap check-in. |
+| **Hotel map** | Search a place, pan the map, and see accommodation from OpenStreetMap as markers — filtered and sorted by real distance from the map centre. |
+| **Voya AI** | A travel assistant backed by four specialist agents (flights, hotels, itineraries, budget), conversation memory, live web grounding and source links. |
 
 ---
 
