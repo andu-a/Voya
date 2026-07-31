@@ -1,0 +1,4 @@
+from .compat import apply_python314_django_context_copy_patch
+
+
+apply_python314_django_context_copy_patch()
