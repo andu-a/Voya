@@ -80,3 +80,4 @@ coverage/
 *.swp
 .DS_Store
 Thumbs.db
+"**/ios/Secrets.xcconfig" 
